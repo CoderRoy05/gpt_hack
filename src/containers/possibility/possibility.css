@@ -55,6 +55,22 @@
     margin-bottom: 2rem;
 }
 
+/* Define the animation */
+@keyframes bounce {
+    0%, 100% {
+      transform: translateX(0); /* Start and end position */
+    }
+    50% {
+      transform: translateX(90px); /* Bounce to the right */
+    }
+}
+  
+  /* Apply the animation to your div */
+#bouncing-div {
+    animation: bounce 5s ease-in-out infinite; /* Adjust the animation duration and timing function as needed */
+}
+  
+
 /* Media queries */
 @media screen and (max-width: 950px) {
     .gpt3__possibility {
@@ -79,5 +95,41 @@
     .gpt3__possibility-image img {
         width: 100%;
         height: 100%;
+    }
+}
+
+
+    /* keyframes adaptations */
+
+@media screen and (max-width: 1025px) {
+    @keyframes bounce {
+        0%, 100% {
+          transform: translateX(0); /* Start and end position */
+        }
+        50% {
+          transform: translateX(47px); /* Bounce to the right */
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    @keyframes bounce {
+        0%, 100% {
+          transform: translateX(0); /* Start and end position */
+        }
+        50% {
+          transform: translateX(40px); /* Bounce to the right */
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    @keyframes bounce {
+        0%, 100% {
+          transform: translateX(0); /* Start and end position */
+        }
+        50% {
+          transform: translateX(30px); /* Bounce to the right */
+        }
     }
 }
