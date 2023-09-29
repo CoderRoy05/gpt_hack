@@ -113,6 +113,20 @@
     height: 100%;
 }
 
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+}
+  
+.bouncing-div {
+    animation: bounce 2s infinite;
+}
+  
+
 @media screen and (max-width: 1050px) {
     .gpt3__header {
         flex-direction: column;
