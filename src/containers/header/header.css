@@ -122,7 +122,7 @@
     }
 }
   
-.bouncing-div {
+#bouncing-div {
     animation: bounce 2s infinite;
 }
   
