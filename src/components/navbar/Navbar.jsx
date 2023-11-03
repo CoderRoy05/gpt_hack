@@ -5,11 +5,11 @@ import './navbar.css';
 
 const Menu = () => (
           <>
-          <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">What is GPT3?</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="/home">Home</a></p>
+          <p><a href="/WhatGPT3">What is GPT3?</a></p>
+          <p><a href="/Possibility">Open AI</a></p>
+          <p><a href="/CTA">Case Studies</a></p>
+          <p><a href="/Blog">Library</a></p>
           </>
 )
 
@@ -27,8 +27,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p><a href="/Appsignin">Sign in</a></p>
+        <button type="button"><a href="/Appsign">Sign up</a></button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu

@@ -1,0 +1,19 @@
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form #input_first {
+    margin-bottom: 10px; /* Adjust the value to control the space between inputs */
+}
+
+.below_form{
+    padding-bottom: 20px;
+    color: rgb(68, 65, 65);
+}
+
+.span_text{
+    color: rgb(0, 4, 255);
+    padding-left: 0;
+}

@@ -113,18 +113,32 @@
     height: 100%;
 }
 
-@keyframes bounce {
-    0%, 100% {
+.success-message{
+    /* background-color: rgb(64, 35, 92); */
+    background: linear-gradient(to right, rgb(70, 20, 88), rgb(39, 3, 58));
+
+    color: lightblue;
+    padding: 10px 5px;
+    border-radius: 9px;
+}
+
+#fly {
+    position: relative;
+    animation: flyAnimation 2s linear infinite;
+  }
+  
+  @keyframes flyAnimation {
+    0% {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px);
+      transform: translateY(-12px);
     }
-}
+    100% {
+      transform: translateY(0);
+    }
+  }
   
-#bouncing-div {
-    animation: bounce 2s infinite;
-}
   
 
 @media screen and (max-width: 1050px) {

@@ -5,6 +5,11 @@
     flex-direction: row;
 }
 
+#features{
+    background-color: rgba(3, 3, 48, 0.766);
+    border-radius: 9px;
+}
+
 .gpt3__features-heading {
     flex: 1;
     display: flex;
